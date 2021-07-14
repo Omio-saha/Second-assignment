@@ -173,44 +173,81 @@ Midea-queary for mobile-phones
 ---------------------------------*/
 @media (max-width: 688px) {
     
-    .comment-part{
-        width: 278px;
-    }
-    .comment-part h1{
-        font-size: 36px;
-    }
-    .best-players{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: auto;
-        grid-row-gap: 27px;
+    
+    /*---------------- 
+Header part 
+ ------------------*/
+.menu{
+        display: none;
     }
     .first-part{
         display: flex;
         justify-content:space-between;
-    }
-    .menu{
-        display: none;
     }
     .menu-bar{
         display: inline-block;
         color: white;
         font-size: 24px;
     }
-    .second-header-part{
+   
+    
+    /* <!-----------------------
+    second-header-part 
+ ---------------------- --> */ 
+ .second-header-part{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .comment-part{
+        width: 278px;
+    }
+    .comment-part h1{
+        font-size: 36px;
+    }
+    .image-part{
+        margin-left: 15%;
+        margin-top: 50px;
     }
     .image-part img{
-        width: 328px;
+        width: 329px;
+        /* margin: auto; */
     }
-    .containers{
+    /* <!-----------------------------------------
+    Best football player and about them
+---------------------------------------------> */
+    .best-players{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        width: 90%;
+        margin: auto;
+        grid-row-gap: 27px;
     }
+    
+    
+    /* <!---------------------
+    Highlight section 
+-----------------------> */
+    
+    
+  
+    .containers{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black; 
+    }
+    .writtens-part {
+        word-wrap:break-word;
+    }
+    .written-part a{
+        margin-top: 35px;
+    }
+    .image-part img{
+        width: 100%
+    }
+
     .copyright-part{
-        font-size: 14px;
+        font-size: 14px;  
+    
     }
 }
 
