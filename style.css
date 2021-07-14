@@ -173,8 +173,12 @@ Midea-queary for mobile-phones
 ---------------------------------*/
 @media (max-width: 688px) {
     
-    
-    
+    .comment-part{
+        width: 278px;
+    }
+    .comment-part h1{
+        font-size: 36px;
+    }
     .best-players{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -203,6 +207,7 @@ Midea-queary for mobile-phones
     .containers{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        width: 90%;
     }
     .copyright-part{
         font-size: 14px;
