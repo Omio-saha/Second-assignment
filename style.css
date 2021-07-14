@@ -75,6 +75,10 @@ margin-left: 9%;
 .image-part{
     width: 500px;
     margin-bottom: 86px;
+    transition: transform 1s ease-in;
+}
+.image-part:hover{
+ transform: rotate(20deg);
 }
 
 /*-----------------------
