@@ -40,6 +40,10 @@ padding-right: 36px;
     color: white;
     background-color: #E02C6D;
     padding: 10px 24px;
+    transition: backgro;
+}
+.button a:hover{
+ color: khaki;
 }
 /*------------------
 header 2nd part 
@@ -171,8 +175,12 @@ footer section
 /*------------------------------
 Midea-queary for mobile-phones 
 ---------------------------------*/
-@media (max-width: 650px) {
+@media (max-width: 688px) {
     
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     
     /*---------------- 
 Header part 
@@ -206,7 +214,7 @@ Header part
         font-size: 36px;
     }
     .image-part{
-        margin-left: 15%;
+        margin-left: 25%;
         margin-top: 50px;
     }
     .image-part img{
